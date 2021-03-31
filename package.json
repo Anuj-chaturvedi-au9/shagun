@@ -9,13 +9,7 @@
   },
   "scripts": {
     "start": "server.js",
-    "server": "nodemon server.js",
-    "client": "cd frontend && npm run start",
-    "client-install": "cd frontend && npm install",
-    "server-install": "npm install",
-    "install-all": "concurrently \"npm run server-install\" \"npm run client-install\"",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "cd frontend && npm install && npm run build"
+    "server": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
